@@ -38,7 +38,24 @@ Ensure the following are installed on your system:
 git clone https://github.com/leovncs/spring-boot-ecommerce.git
 ```
 
-2. Install dependencies with Maven
+2. Navigate to the project directory:
+
+```bash
+cd sprin-boot-ecommerce
+```
+
+3. Build and run the application using Maven:
+
+```bash
+mvn spring-boot:run
+```
+
+4. Access the application:
+
+- H2 Console: http://localhost:8080/h2-console
+  - JDBC URL: **jdbc:h2:mem:testdb**
+  - Username: **sa**
+  - Password: <i>(leave blank)</i>
 
 <h2 id="contribute">📫 Contribute</h2>
 
